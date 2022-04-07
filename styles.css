@@ -183,4 +183,12 @@ hr {
     color: black;
 } 
 
-/*____________________________________________________________________________ */
+/*Contact content__________________________________________________________________ */
+
+.contact-container{
+    display: inline-flex;
+    /* flex-flow: row wrap; */
+    justify-content: flex-start;
+    width: 80%;
+}
+
