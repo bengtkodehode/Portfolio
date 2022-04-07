@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FFEFC7;
+    height: 100vh;
+    font-family: 'Red Hat Mono', monospace;   
+}
+
+
+/* Sticky Navbar_____________________________________________________________________________ */
+
+
+#navbar {
+    overflow: hidden;
+    background-color: #FFEFC7;
+    border-bottom: 2px solid #fff06b;
+} 
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#navbar a:hover {
+    background-color: #fff495;
+    /* background-color: #ddd; */
+    color: black;
+} 
+#navbar a.active {
+    background-color:#FFEB3B;
+    color: Black;
+} 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}  
+.sticky + .content {
+    padding-top: 60px;
+}
+
+
+/* Scrollbar______________________________________________________________________________ */
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+
+/* Projects content_____________________________________________________________________________ */
+
+
+.projectContainer {
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.projectsHeader {
+    margin-top: 85px;
+    background-color: #FFEB3B;
+    padding: 8px;
+    width:fit-content;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+hr {
+    margin-top: 35px;
+    height:2px;
+    border-width:0;
+    background-color:rgb(153, 153, 153)
+}
+
+.projectTitle {
+    margin-top: 85px;
+    font-size: 1.5rem;
+    font-weight:bolder;
+    text-transform: capitalize;
+}
+
+.projectSub {
+    margin: 25px 0;
+    width: 60vw;
+    line-height: 30px;
+}
+
+.gitButton {
+    border: 1px solid #000;
+    width: 175px;
+    padding: 5px;
+    padding: 0.5em 1em;
+    background-color: transparent;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+}
+
+.copyright {
+    margin-top: 5em;
+    padding-bottom: 2em;
+    font-style: italic;
+}
+
+
+/* About content________________________________________________________________________________ */
+
+.profilePicture{
+    display: block;
+    float: left; 
+    margin-top: 42px;
+    margin-right: 12px;
+    margin-left: 45px; 
+    border: #888 solid 2px;
+}
+
+.intro,
+.main {
+    width: 60vw;
+    margin-left: 3em;
+}
+
+.intro {
+    font-size: 1.2rem;
+}
+
+.main {
+    margin-top: 30px;
+    padding-bottom: 3em;
+    line-height: 2;
+}
+
+.main > p {
+    margin-top: 15px;
+}
+
+
+
+
+.pdfContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    gap: 15px;
+    margin-top: 4em;
+}
+
+.cvTile {
+    display: block;
+    height: 86px;
+    width: 70px;
+}
+
+.pdfImg {
+    width: 70px;
+}
+
+.pdfIns {
+    color: black;
+} 
+
+/*____________________________________________________________________________ */
