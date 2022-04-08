@@ -212,6 +212,7 @@ hr {
 .github-contact{
     flex: 1;
     width: 25%;
+    height: 230px;
 }
 .linkedin-contact{
     flex: 1;
