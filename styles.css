@@ -226,3 +226,10 @@ hr {
     width: 25%;
 }
 
+
+@media (max-width: 800px) {
+    .contact-container{
+        flex-direction: column;
+    }
+}
+
