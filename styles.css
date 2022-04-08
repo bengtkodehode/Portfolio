@@ -232,5 +232,26 @@ hr {
     .contact-container{
         flex-direction: column;
     }
+    .contact-container{
+        display: flex; 
+        padding-top: 0.5em;
+    }
+    .github-contact{
+        flex: 1;
+        width: 50%;
+        height: 230px;
+    }
+    .linkedin-contact{
+        flex: 1;
+        width: 61%;
+    }
+    .email-contact{
+        flex: 1;
+        width: 50%;
+    }
+    .mobile-contact{
+        flex: 1;
+        width: 50%;
+    }
 }
 
