@@ -187,13 +187,13 @@ hr {
 
 .contact-sub {
     margin: 25px 0;
-    width: 60vw;
+    width: fit-content;
     line-height: 30px;
 }
 
-.contact-disp{
+/* .contact-disp{
     width: fit-content;
-}
+} */
 
 .contact-btn {
     border: 1px solid #000;
@@ -227,7 +227,7 @@ hr {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 955px) {
     .contact-container{
         flex-direction: column;
     }
